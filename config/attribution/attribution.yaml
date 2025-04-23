@@ -1,0 +1,8 @@
+tasks:
+  - task_id: task_1
+    sql: test_1.sql
+
+  - task_id: task_2
+    sql: test_2.sql
+    depends_on: task_1
+ 
